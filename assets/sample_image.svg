@@ -1,0 +1,46 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#bbdefb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#90caf9;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="circleGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2e7d32;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#backgroundGradient)"/>
+  
+  <!-- Rectangle shape -->
+  <rect x="50" y="50" width="100" height="100" fill="#ff5722" stroke="#d84315" stroke-width="2" rx="5"/>
+  
+  <!-- Circle shape -->
+  <circle cx="300" cy="100" r="50" fill="url(#circleGradient)" stroke="#1b5e20" stroke-width="2"/>
+  
+  <!-- Ellipse shape -->
+  <ellipse cx="200" cy="200" rx="80" ry="40" fill="#3f51b5" stroke="#1a237e" stroke-width="2" transform="rotate(45 200 200)"/>
+  
+  <!-- Text element -->
+  <text x="250" y="250" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">Sample</text>
+  
+  <!-- Geometric patterns -->
+  <polygon points="320,200 340,180 360,200 340,220" fill="#ff9800" stroke="#e65100" stroke-width="2"/>
+  
+  <!-- Lines for texture -->
+  <line x1="70" y1="180" x2="130" y2="180" stroke="#795548" stroke-width="3"/>
+  <line x1="70" y1="190" x2="130" y2="190" stroke="#795548" stroke-width="3"/>
+  <line x1="70" y1="200" x2="130" y2="200" stroke="#795548" stroke-width="3"/>
+  
+  <!-- Small circles for noise simulation -->
+  <circle cx="100" cy="80" r="3" fill="#fff"/>
+  <circle cx="120" cy="90" r="2" fill="#fff"/>
+  <circle cx="80" cy="100" r="2" fill="#fff"/>
+  
+  <!-- Border -->
+  <rect x="1" y="1" width="398" height="298" fill="none" stroke="#666" stroke-width="2"/>
+</svg>
