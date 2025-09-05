@@ -184,4 +184,6 @@ streamlit-image-processing/
 
 ---
 
+[زيارة موقع المشروع](https://app-image-processing-yn8pjpnpncchpxdakruwaz.streamlit.app/)
+
 إذا أعجبك هذا المشروع، لا تنس وضع نجمة للمستودع!
